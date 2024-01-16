@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    /* max-width: 1000px; */
+    /* background-color: #1f2937; */
+
+}
+main {
+    /* padding: 70px; */
+
+}
+
+i {
+    display: block;
+    width: 50%;
+    color: white;
+}
+ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 20px 16px;
+   display: block;
+   width: 50%;
+}
+li {
+    display: inline-block;
+    margin: 15px;
+
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+nav {
+    display: flex;
+    background-color: #1f2937;
+}
+#welcome {
+    background-color: #1f2937;
+    color: white;
+    height: 300px;
+    display: flex;
+}
+.hero-section {
+    display: block;
+    width: 50%;
+    /* padding: 50px; */
+    padding-right: 0;
+    padding-left: ;
+    padding-top: 25px;
+    margin: 0;
+}
+.hero-section p {
+    text-align: left;
+    width: 80%;
+    padding-left: 160px;
+
+}
+.hero-section input{
+    background-color: #3882f6;
+    border: 1px solid #3882f6;
+    width: 80px;
+    height: 25px;
+    border-radius: 5px;
+    margin: 10px;
+    color: white;
+
+}
+.img {
+    width: 50%;
+    padding: ;
+    padding-left: 0;
+    margin: 0;
+}
+img {
+    height: 70%;
+    width: 70%;
+}
+#product {
+    background-color: white;
+    /* height: 500px; */
+}
+#product h2 {
+    padding-top: 25px;
+
+}
+.product-images {
+    /* padding: 100px; */
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: nowrap;
+    padding: 50px;
+    padding-left: 60px;
+
+}
+.product-images span p{ 
+    width: 170px; 
+    margin: 20px;
+ } 
+.product-image {
+    height: 200px;
+    width: 170px;
+    border: 2px solid #2882f6;
+    border-radius: 5px;
+    margin: 20px;
+}
+#stuff {
+    background-color: #e5e7eb;
+    height: 500px;
+    text-align: left;
+    padding: 90px;
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+}
+#stuff blockquote {
+    width: 500px;
+    margin-left: 300px;
+
+}
+#lyel {
+    background-color: white;
+    height: 200px;
+    padding-top: 60px;
+}
+.lyle {
+    width: 60%; 
+    height: 80px;
+    margin-left: 250px;
+    border-radius: 5px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    display: flex;
+}
+.leyl {
+    display: inline-block;
+    width: 80%;
+    text-align: left;
+    padding: 20px;
+}
+.lely {
+    display: inline-block;
+    width: 20%;
+    padding: 30px;
+}
+.lely input {
+    background-color: #3882f6;
+    border: 1px solid #e5e7eb;
+    width: 80px;
+    height: 25px;
+    border-radius: 5px;
+    color: white;
+}
+footer {
+    height: 50px;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 20px;
+}
